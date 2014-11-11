@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Base*/
+/* Layout */
+.wrapper{
+	max-width:60em;
+	position:relative;
+	margin:20px auto;
+	
+}
+.row{
+		display:flex;
+		flex-direction:row;
+		min-height:2.5em;
+	}
+	
+	.meta{
+		background:blue;
+	}
+	
+	.logo{
+		background:navy;
+	}
+	
+	.nav{
+		background:#ddd;
+	}
+	
+	.nav > .lynx{
+		border:2px solid #333;
+		padding:.25em;
+		flex-grow:1;
+	}
+	
+	.hero{
+		height: 325px;
+		background-color:maroon;
+	}
+	
+	.feature .feature-pic{
+		width:100%;
+		height:auto;
+		
+	}
